@@ -1,0 +1,62 @@
+.navBlock {
+    background-color: black;
+    height: 15vh;
+    display: flex;
+ 
+
+}
+
+.title {
+
+    display: flex;
+    margin-right: 20%;
+    font-size: xx-large;
+    align-items: center;
+}
+
+
+.nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.navList {
+   margin-right: auto;
+    font-size: x-large;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+    
+    
+}
+
+.navItem {
+    color: white;
+    align-items: center;
+    background: linear-gradient(to left, black 50%, red 50%) right;
+background-size: 200% 100%;
+font-size: x-large;
+
+}
+.navItemActive{
+   color: red;
+}
+
+.navItem:hover {
+    transition-duration: 500ms;
+    background-position: left;
+
+}
+
+
+
+
+
+
+
+
+a {
+    text-decoration: none;
+}
