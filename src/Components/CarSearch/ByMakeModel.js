@@ -12,6 +12,9 @@ import {
 } from "./seed";
 import { useState } from "react";
 import { useEffect } from "react";
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+import "./ByMakeModel.css"
 
 const ByMakeModel = () => {
   const Models = Object.keys(Cars);
@@ -24,7 +27,7 @@ const ByMakeModel = () => {
   useEffect(() => {
     if (Make.Make) {
       setDisable(false);
-      setDisplay("")
+      setDisplay("");
     }
   }, [Make]);
   const HandleChange = (event) => {
@@ -42,12 +45,34 @@ const ByMakeModel = () => {
       case "Camry":
         setDisplay(
           Camry.map((car) => (
-            <img
-              src={car}
-              width="200"
-              height="150"
-              style={{ display: "block", margin: "20px" }}
-            ></img>
+            <div className="card" style={{ width: '75%' }}>
+            <div class="row no-gutters">
+                <div class="col-auto">
+                    <img src={car.IMG} class="img-fluid" alt=""></img>
+                </div>
+                <div class="col">
+                    <div class="card-block px-2">
+                        <h4 class="card-title">{car.Name}</h4>
+                        <p class="card-text">{
+                            <ul>
+                                <li>Color:{car.Color}</li>
+                                <li>Interior:{car.Interior}</li>
+                                <li>Drive:{car.Drive}</li>
+                                <li>Trans:{car.Trans}</li>
+                                <li>VIN:{car.VIN}</li>
+                                <li>Engine:{car.Engine}</li>
+                                <li>Stock#:{car.Stock}</li>
+                                <li>Mileage:{car.Mileage}</li>
+                            </ul>
+                        }</p>
+                 
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer w-100 text-muted">
+            <a href="#" class="btn btn-primary">BUTTON</a>
+            </div>
+      </div>
           ))
         );
         break;
@@ -172,6 +197,8 @@ const ByMakeModel = () => {
       </form>
 
       {Display}
+
+
     </>
   );
 };

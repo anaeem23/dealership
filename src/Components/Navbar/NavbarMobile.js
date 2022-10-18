@@ -10,7 +10,7 @@ const NavbarMobile = () => {
     aboutUs: "navItem",
   });
 
-  const [siteMap ,setSiteMap] = useState(true)
+  const [siteMap ,setSiteMap] = useState(false)
 
   const openNav = () => {
     setSiteMap(!siteMap)
