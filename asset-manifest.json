@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/dealership/static/css/main.5685ae92.css",
-    "main.js": "/dealership/static/js/main.e729994b.js",
+    "main.css": "/dealership/static/css/main.e7027e9c.css",
+    "main.js": "/dealership/static/js/main.7abbc3f1.js",
     "static/js/787.5e1777e5.chunk.js": "/dealership/static/js/787.5e1777e5.chunk.js",
     "index.html": "/dealership/index.html",
-    "main.5685ae92.css.map": "/dealership/static/css/main.5685ae92.css.map",
-    "main.e729994b.js.map": "/dealership/static/js/main.e729994b.js.map",
+    "main.e7027e9c.css.map": "/dealership/static/css/main.e7027e9c.css.map",
+    "main.7abbc3f1.js.map": "/dealership/static/js/main.7abbc3f1.js.map",
     "787.5e1777e5.chunk.js.map": "/dealership/static/js/787.5e1777e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5685ae92.css",
-    "static/js/main.e729994b.js"
+    "static/css/main.e7027e9c.css",
+    "static/js/main.7abbc3f1.js"
   ]
 }
