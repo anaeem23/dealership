@@ -1,0 +1,26 @@
+.slideshow{
+	opacity: 100;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 3s;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+    
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.slideshowPic {
+    object-fit: cover;
+    max-width: 90vw;
+}

@@ -2,3 +2,19 @@
     justify-content: center;
     align-items: center;
 }
+
+.form {
+    display: flex;
+ 
+    justify-content: center;
+}
+
+.formQ {
+    background-color: yellow;
+    margin-top: 10px;
+}
+
+select {
+    height: 42px;
+    width: 142px;
+}

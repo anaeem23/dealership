@@ -1,6 +1,6 @@
 .navBlock {
     background-color: black;
-    height: 15vh;
+    height: 18vh;
     display: flex;
  
 
@@ -10,8 +10,11 @@
 
     display: flex;
     margin-right: 20%;
-    font-size: xx-large;
     align-items: center;
+}
+
+.title h1 {
+    font-size: 7rem;
 }
 
 
@@ -28,8 +31,6 @@
     height: 100%;
     align-items: center;
     
-    
-    
 }
 
 .navItem {
@@ -40,9 +41,8 @@ background-size: 200% 100%;
 font-size: x-large;
 
 }
-.navItemActive{
-   color: red;
-}
+
+
 
 .navItem:hover {
     transition-duration: 500ms;
@@ -58,5 +58,4 @@ font-size: x-large;
 
 
 a {
-    text-decoration: none;
-}
+text-decoration: none;}
