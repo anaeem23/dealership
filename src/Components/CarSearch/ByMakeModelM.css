@@ -1,6 +1,6 @@
 
 
-.form {
+.formM {
     display: flex;
     justify-content: center;
     background-color: black;
@@ -8,15 +8,17 @@
     
 }
 
-.formQ {
+.formQM {
     background-color:inherit;
     margin-top: 0;
     border: red 2vw;
+    margin-top: 4vh;
+    
 }
 
 select {
-    height: 3vw;
-    width: 15vw;
+    height: 3vh;
+    width: 15vh;
     background-color: inherit;
     color: white;
 }

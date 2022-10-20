@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { Camry, Corolla, Highlander, Edge, Escape, Focus, Civic,Accord } from "../CarSearch/seed";
-import { useHistory } from "react-router-dom";
+import "./RenderCarPage.css"
 
 
 const RenderCarPage = () => {
@@ -17,7 +17,11 @@ const RenderCarPage = () => {
 
 
   return (
-    <div className="card" style={{ width: "75%" }}>
+    <div className="container-fluid carPage">
+      <div className="row in">
+        <div className="col-2"></div>
+        <div className="col-8 carPageCard">
+        <div className="card" style={{ width: "90%" }}>
       <div className="row no-gutters">
         <div className="col-auto">
           <img src={car.IMG} className="img-fluid" alt=""></img>
@@ -47,6 +51,10 @@ const RenderCarPage = () => {
        
       <button onClick={() => navigate(-1)} className="btn btn-primary">Go Back</button>
      
+      </div>
+    </div>
+        </div>
+        <div className="col-2"></div>
       </div>
     </div>
   );

@@ -11,11 +11,11 @@ import {
   Civic,
 } from "./seed";
 import { useState, useEffect } from "react";
-import "./ByMakeModel.css";
+import "./ByMakeModelM.css";
 import RenderCars from "../CarPage/RenderCars";
 import { Link } from "react-router-dom";
 
-const ByMakeModel = () => {
+const ByMakeModelM = () => {
   const Models = Object.keys(Cars);
 
   const [disable, setDisable] = useState(true);
@@ -44,8 +44,8 @@ const ByMakeModel = () => {
 
   return (
     <>
-      <form className="form" id="MakeModel">
-        <div className="formQ">
+      <form className="formM" id="MakeModel">
+        <div className="formQM">
         <select placeholder="All Makes" name="Makes" onChange={HandleChange}>
           <option value="" readonly selected>
             All Makes
@@ -83,4 +83,4 @@ const ByMakeModel = () => {
   );
 };
 
-export default ByMakeModel;
+export default ByMakeModelM;

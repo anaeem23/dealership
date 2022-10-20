@@ -1,0 +1,39 @@
+.carPage{
+   margin-top: 3vw;
+   
+}
+.carPageCard {
+    background-color: black;
+}
+
+.card {
+    background-color: black;
+    
+}
+
+.card-block {
+    background-color: black;
+}
+
+.card-title {
+    background-color: black;
+    color: white;
+}
+
+.card-text ul li {
+    background-color: black;
+    color: white;
+}
+
+.card-text ul {
+    background-color: black;
+    color: white;
+}
+
+.col-auto {
+    background-color: black;
+}
+
+.card-footer {
+    background-color: red;
+}

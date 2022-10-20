@@ -11,6 +11,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Inventory from "./Pages/Inventory";
 import SearchMakeModel from "./Pages/Car Searches/SearchMakeModel";
 import Home from "./Pages/Home";
+import HeaderM from "./Components/Header/HeaderM";
+import ByMakeModelM from "./Components/CarSearch/ByMakeModelM";
 
 
 
@@ -30,16 +32,16 @@ function App() {
   window.addEventListener("resize", handleResize);
 
   return (
-    <>
+    <div className="body">
       <Router>
-        <Header />
+      {isMobile ? <HeaderM /> : <Header />}
         {isMobile ? <NavBarM /> : <NavBarD />}
-        {/* <ByMakeModel/> */}
+        <ByMakeModelM />
         <div>
           <Routes>
             <Route path="/" element={<Home />} />
-            {/* <Route path="/home" element={<Home />} /> */}
-            {/* <Route path="/dealership" element={<Home />} /> */}
+            <Route path="/home" element={<Home />} />
+            <Route path="/dealership" element={<Home />} />
             <Route path="/inventory" element={<Inventory />} />
             <Route path="/inventory/:VIN" element={<RenderCarPage />} />
             <Route path="/inventory/Model/:Model" element={<SearchMakeModel />} />
@@ -49,7 +51,7 @@ function App() {
           </Routes>
         </div>
       </Router>
-    </>
+    </div>
   );
 }
 

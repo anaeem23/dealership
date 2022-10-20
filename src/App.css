@@ -1,7 +1,11 @@
 *{
-	background-color: #000036 ;
 	font-family: 'Roboto', sans-serif;
 
+}
+
+.body {
+	background-color: #000036 ;
+	min-height: 100vh;
 }
 
 .slideshow{
