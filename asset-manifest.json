@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/dealership/static/css/main.e7027e9c.css",
-    "main.js": "/dealership/static/js/main.7abbc3f1.js",
+    "main.css": "/dealership/static/css/main.bd196922.css",
+    "main.js": "/dealership/static/js/main.628e1f05.js",
     "static/js/787.5e1777e5.chunk.js": "/dealership/static/js/787.5e1777e5.chunk.js",
+    "static/media/car3.jpg": "/dealership/static/media/car3.565dad1dcc1a2f96ce7d.jpg",
+    "static/media/car2.jpg": "/dealership/static/media/car2.98549bbf81fd4538aaa5.jpg",
+    "static/media/car1.jpg": "/dealership/static/media/car1.b2bfd846e96d5947244d.jpg",
     "index.html": "/dealership/index.html",
-    "main.e7027e9c.css.map": "/dealership/static/css/main.e7027e9c.css.map",
-    "main.7abbc3f1.js.map": "/dealership/static/js/main.7abbc3f1.js.map",
+    "main.bd196922.css.map": "/dealership/static/css/main.bd196922.css.map",
+    "main.628e1f05.js.map": "/dealership/static/js/main.628e1f05.js.map",
     "787.5e1777e5.chunk.js.map": "/dealership/static/js/787.5e1777e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7027e9c.css",
-    "static/js/main.7abbc3f1.js"
+    "static/css/main.bd196922.css",
+    "static/js/main.628e1f05.js"
   ]
 }
