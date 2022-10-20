@@ -1,31 +1,31 @@
 import React from "react";
-import "./NavBar.css";
 import Nav from "react-bootstrap/Nav";
-import { useState } from "react";
+import "./NavBar.css"
 import { Link } from "react-router-dom";
 
 const NavBarDesktop = () => {
   return (
-    <header className="navBlock">
-      
-      <div className="title">
-        <h1 style={{ color: "white" }}>Royalty</h1>
-        <h1 style={{ color: "red" }}> Motors</h1>
+    <>
+      <div className="container-fluid navBlock">
+        <div className="row in">
+          <div className="col-8 title">
+            <span style={{ color: "white" }}> Royalty</span>
+            <span style={{ color: "red" }}>Motors</span>
+          </div>
+          <div className="col-4 navO">
+        <div className="col-4 nav-item">
+          <Link to="/home" className="navItem">Home</Link>
+        </div>
+        <div className="col-4 nav-item">
+          <Link to="/inventory" className="navItem">Inventory</Link>
+        </div>
+        <div className="col-4 nav-item">
+          <Link to="/aboutUs" className="navItem">About Us</Link>
+        </div>
+          </div>
+        </div>
       </div>
-       
-
-      <Nav>
-        <Nav.Item className="navItem">
-          <Nav.Link href="/home">Home</Nav.Link>
-        </Nav.Item>
-        <Nav.Item className="navItem">
-          <Nav.Link href="/inventory">Inventory</Nav.Link>
-        </Nav.Item>
-        <Nav.Item className="navItem">
-          <Nav.Link href="aboutUs">About Us</Nav.Link>
-        </Nav.Item>
-      </Nav>
-    </header>
+    </>
   );
 };
 

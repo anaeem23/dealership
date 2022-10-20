@@ -1,36 +1,51 @@
+
 .navBlock {
     background-color: black;
-    height: 18vh;
-    display: flex;
+    height: 8vw;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
  
 
 }
-
+.in {
+    background-color: inherit;
+    height: inherit;
+	width: inherit;
+}
 .title {
-
+    background-color: inherit;
     display: flex;
-    margin-right: 20%;
-    align-items: center;
+    justify-content: center;
+
 }
 
-.title h1 {
-    font-size: 7rem;
+.title span {
+    background-color: inherit;
+    font-size: 5.5vw;
+    
 }
 
+
+
+
+.navO {
+  background-color: inherit;
+ height: inherit;
+ display: flex;
+ justify-content: center;
+}
 
 .nav {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+    background-color: inherit;
+   
 }
-.navList {
-   margin-right: auto;
-    font-size: x-large;
+.nav-item {
     display: flex;
-    height: 100%;
     align-items: center;
-    
+    background: inherit;
+    justify-content: center;
+
 }
 
 .navItem {
@@ -38,13 +53,19 @@
     align-items: center;
     background: linear-gradient(to left, black 50%, red 50%) right;
 background-size: 200% 100%;
-font-size: x-large;
+font-size: 2vw;
+text-decoration: none;
+border-radius: .5vw;
+
+
+
 
 }
 
 
 
 .navItem:hover {
+    color: black;
     transition-duration: 500ms;
     background-position: left;
 

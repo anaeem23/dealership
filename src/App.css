@@ -1,26 +1,55 @@
+*{
+	background-color: #000036 ;
+	font-family: 'Roboto', sans-serif;
+
+}
+
 .slideshow{
 	opacity: 100;
-	animation-name: fadeInOpacity;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in;
-	animation-duration: 3s;
+	
     display: flex;
     justify-content: center;
     margin: auto;
+	overflow: hidden;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-duration: 5s;
+	min-width: 100vw;
 
     
+}
+
+.overflow {
+	overflow: hidden;
+	min-width: 100vw;
 }
 
 @keyframes fadeInOpacity {
 	0% {
 		opacity: 0;
+		transform: scale(1);
 	}
 	100% {
 		opacity: 1;
+		transform: scale(1.5);
 	}
 }
+
 
 .slideshowPic {
     object-fit: cover;
     max-width: 90vw;
+	overflow: hidden;
+
+}
+
+.in {
+    background-color: inherit;
+    height: inherit;
+	width: inherit;
+}
+
+.zoom {
+   transform: scale(2);
 }

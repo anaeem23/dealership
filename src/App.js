@@ -34,12 +34,12 @@ function App() {
       <Router>
         <Header />
         {isMobile ? <NavBarM /> : <NavBarD />}
-        <ByMakeModel/>
+        {/* <ByMakeModel/> */}
         <div>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/dealership" element={<ByMakeModel />} />
+            {/* <Route path="/home" element={<Home />} /> */}
+            {/* <Route path="/dealership" element={<Home />} /> */}
             <Route path="/inventory" element={<Inventory />} />
             <Route path="/inventory/:VIN" element={<RenderCarPage />} />
             <Route path="/inventory/Model/:Model" element={<SearchMakeModel />} />
