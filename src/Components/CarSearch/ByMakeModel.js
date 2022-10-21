@@ -19,14 +19,16 @@ const ByMakeModel = () => {
   const Models = Object.keys(Cars);
 
   const [disable, setDisable] = useState(true);
+  const [disableBTN, setDisableBTN] = useState(true);
+
   const [Make, setMake] = useState({ Make: null });
   const [chosenCar, setCar] = useState("");
 
   const handleSubmitBTN = (event) => {
-  const form = document.getElementById("MakeModel")
-  setDisable(true)
-      form.reset()
-  }
+    const form = document.getElementById("MakeModel");
+    setDisable(true);
+    form.reset();
+  };
 
   useEffect(() => {
     if (Make.Make) {
@@ -40,43 +42,53 @@ const ByMakeModel = () => {
 
   const HandleSubmit = (event) => {
     setCar(event.target.value);
+    setDisableBTN(false);
   };
 
   return (
     <>
       <form className="form" id="MakeModel">
         <div className="formQ">
-        <select placeholder="All Makes" name="Makes" onChange={HandleChange}>
-          <option value="" readonly selected>
-            All Makes
-          </option>
+          <select placeholder="All Makes" name="Makes" onChange={HandleChange}>
+            <option value="" readonly selected>
+              All Makes
+            </option>
 
-          {Models.map((model) => (
-            <option value={model}>{model}</option>
-          ))}
-        </select>
+            {Models.map((model) => (
+              <option value={model}>{model}</option>
+            ))}
+          </select>
 
-        <select
-          disabled={disable}
-          placeholder="All Models"
-          name="Models"
-          onChange={HandleSubmit}
-        >
-          <option value="" readonly selected>
-            All Models
-          </option>
+          <select
+            disabled={disable}
+            placeholder="All Models"
+            name="Models"
+            onChange={HandleSubmit}
+          >
+            <option value="" readonly selected>
+              All Models
+            </option>
 
-          {Make.Make ? (
-            Make.Make.map((model) => <option value={model}>{model}</option>)
-          ) : (
-            <option></option>
-          )}
-        </select>
-        <Link to={`/inventory/Model/${chosenCar}`}>
-          {" "}
-          <button type="reset" className="btn btn-danger" onClick={handleSubmitBTN}>LookUp</button>
-          
-        </Link>
+            {Make.Make ? (
+              Make.Make.map((model) => <option value={model}>{model}</option>)
+            ) : (
+              <option></option>
+            )}
+          </select>
+          <Link
+            style={{ pointerEvents: disableBTN ? "none" : "" }}
+            to={`/inventory/Model/${chosenCar}`}
+          >
+            {" "}
+            <button
+              disabled={disableBTN}
+              type="reset"
+              className="btn btn-danger"
+              onClick={handleSubmitBTN}
+            >
+              LookUp
+            </button>
+          </Link>
         </div>
       </form>
     </>

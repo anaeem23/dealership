@@ -3,7 +3,7 @@ import Header from "./Components/Header/Header";
 import NavBarM from "./Components/Navbar/NavbarMobile";
 import NavBarD from "./Components/Navbar/NavbarDesktop";
 import ByMakeModel from "./Components/CarSearch/ByMakeModel";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import RenderCarPage from "./Components/CarPage/RenderPage";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -21,22 +21,41 @@ function App() {
   const [car, setCar] = useState(null);
   const [isMobile, setMobile] = useState(false);
 
-  const handleResize = () => {
-    const screenSize = window.screen.availWidth;
-    if (screenSize < 800) {
-      setMobile(true);
-    } else {
-      setMobile(false);
-    }
-  };
-  window.addEventListener("resize", handleResize);
+  // const handleResize = () => {
+  //   const screenSize = window.screen.availWidth;
+  //   if (screenSize < 800) {
+  //     setMobile(true);
+  //   } else {
+  //     setMobile(false);
+  //   }
+  // };
+  // window.addEventListener("resize", handleResize);
+
+  const [width, setWindowWidth] = useState(0)
+  useEffect(() => { 
+
+    updateDimensions();
+
+window.addEventListener("resize", updateDimensions)
+    return () => 
+    window.addEventListener("resize", updateDimensions)
+  }, [])
+   const updateDimensions = () => {
+     const width = window.innerWidth
+     setWindowWidth(width)
+     if (width < 800) {
+      setMobile(true)
+     } else {
+      setMobile(false)
+     }
+   }
 
   return (
     <div className="body">
       <Router>
       {isMobile ? <HeaderM /> : <Header />}
         {isMobile ? <NavBarM /> : <NavBarD />}
-        <ByMakeModelM />
+        {isMobile ? <ByMakeModelM /> : <ByMakeModel />}
         <div>
           <Routes>
             <Route path="/" element={<Home />} />

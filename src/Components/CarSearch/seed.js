@@ -19,7 +19,7 @@ export const Camry = [
   },
 
   {
-    Name: "2007 Camry",
+    Name: "2008 Camry",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -32,7 +32,7 @@ export const Camry = [
   },
 
   {
-    Name: "2007 Camry",
+    Name: "2009 Camry",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -47,7 +47,7 @@ export const Camry = [
 
 export const Corolla = [
   {
-    Name: "2007 Camry",
+    Name: "2007 Corolla",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -59,7 +59,7 @@ export const Corolla = [
     IMG: "https://media.ed.edmunds-media.com/toyota/corolla/2023/fe/2023_toyota_corolla_f34_fe_113221_1280.jpg",
   },
   {
-    Name: "2007 Camry",
+    Name: "2008 Corolla",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -71,7 +71,7 @@ export const Corolla = [
     IMG: "https://www.autotrader.com/wp-content/uploads/2021/04/2021-toyota-corolla-le-front-right-side.jpg",
   },
   {
-    Name: "2007 Camry",
+    Name: "2009 Corolla",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -86,7 +86,7 @@ export const Corolla = [
 
 export const Highlander = [
   {
-    Name: "2007 Camry",
+    Name: "2007 Highlander",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -98,7 +98,7 @@ export const Highlander = [
     IMG: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQe1LVQ7PjRZkFKJf7j0Tqjjkv28LIwGQwM6g&usqp=CAU",
   },
   {
-    Name: "2007 Camry",
+    Name: "2008 Highlander",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -110,7 +110,7 @@ export const Highlander = [
     IMG: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ70vThZMqI_ytyQybTNlMKgeuNsaMPB_sXiw&usqp=CAU",
   },
   {
-    Name: "2007 Camry",
+    Name: "2009 Highlander",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -125,7 +125,7 @@ export const Highlander = [
 
 export const Edge = [
   {
-    Name: "2007 Camry",
+    Name: "2007 Edge",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -137,7 +137,7 @@ export const Edge = [
     IMG: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGtmg7LO-nclBf70i3NRI8L3A2Jd3Er2mY7A&usqp=CAU",
   },
   {
-    Name: "2007 Camry",
+    Name: "2008 Edge",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -149,7 +149,7 @@ export const Edge = [
     IMG: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN7VJ6vdwOr_mj4F-wiHA27mRQCO6TzKjNYQ&usqp=CAU",
   },
   {
-    Name: "2007 Camry",
+    Name: "2009 Edge",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -164,7 +164,7 @@ export const Edge = [
 
 export const Escape = [
   {
-    Name: "2007 Camry",
+    Name: "2007 Escape",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -176,7 +176,7 @@ export const Escape = [
     IMG: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6RmPld-WQL5lWYJBIWATiY-cZ1r2HIWsPWw&usqp=CAU",
   },
   {
-    Name: "2007 Camry",
+    Name: "2008 Escape",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -188,7 +188,7 @@ export const Escape = [
     IMG: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpga0zrnowLo4m7rAgO8_eNnDxLi2gmux_1Q&usqp=CAU",
   },
   {
-    Name: "2007 Camry",
+    Name: "2009 Escape",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -203,7 +203,7 @@ export const Escape = [
 
 export const Focus = [
   {
-    Name: "2007 Camry",
+    Name: "2007 Focus",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -215,7 +215,7 @@ export const Focus = [
     IMG: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaEBmWJ-5A60MH0M66UvGmjcNlJ_kJY8U5gg&usqp=CAU",
   },
   {
-    Name: "2007 Camry",
+    Name: "2008 Focus",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -227,7 +227,7 @@ export const Focus = [
     IMG: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR41ZmCniMUJ8TwIytlX1ppJDuHn1sb0V7MA&usqp=CAU",
   },
   {
-    Name: "2007 Camry",
+    Name: "2009 Focus",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -242,7 +242,7 @@ export const Focus = [
 
 export const Accord = [
   {
-    Name: "2007 Camry",
+    Name: "2007 Accord",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -254,7 +254,7 @@ export const Accord = [
     IMG: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwedwkiaRnSuprUEGiXtz_tkcXCCQx46a6dA&usqp=CAU",
   },
   {
-    Name: "2007 Camry",
+    Name: "2008 Accord",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -266,7 +266,7 @@ export const Accord = [
     IMG: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxQ_W0mvJEW1DXrY__ZUxUsnRrrkEsz4t36w&usqp=CAU",
   },
   {
-    Name: "2007 Camry",
+    Name: "2009 Accord",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -281,7 +281,7 @@ export const Accord = [
 
 export const Civic = [
   {
-    Name: "2007 Camry",
+    Name: "2007 Civic",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -293,7 +293,7 @@ export const Civic = [
     IMG: "https://www.autotrader.com/wp-content/uploads/2020/08/2021-honda-civic-hatchback-front-left-side.jpg",
   },
   {
-    Name: "2007 Camry",
+    Name: "2008 Civic",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
@@ -305,7 +305,7 @@ export const Civic = [
     IMG: "https://www.motortrend.com/uploads/2021/11/2022-Honda-Civic-Hatchback-Sport-Touring-22.jpg",
   },
   {
-    Name: "2007 Camry",
+    Name: "2009 Civic",
     Color: "Brown",
     Interior: "Leather",
     Drive: "FWD",
