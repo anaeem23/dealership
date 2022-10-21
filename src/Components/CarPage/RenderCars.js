@@ -39,7 +39,7 @@ const RenderCars = (prop) => {
                 </div>
               </div>
             </div>
-            <div className="card-footer w-100 text-muted">
+            <div className="card-footer w-100 text-muted bg-danger">
               <Link to={`/inventory/${car.VIN}`}>
                 {" "}
                 <button value={JSON.stringify(car)} className="btn btn-primary">

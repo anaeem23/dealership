@@ -21,15 +21,15 @@ const RenderCarPage = () => {
       <div className="row in">
         <div className="col-2"></div>
         <div className="col-8 carPageCard">
-        <div className="card" style={{ width: "90%" }}>
-      <div className="row no-gutters">
-        <div className="col-auto">
+        <div className="card" style={{ width: "100%" }}>
+      <div className="row no-gutters bg-dark">
+        <div className="col-auto bg-black">
           <img src={car.IMG} className="img-fluid" alt=""></img>
         </div>
-        <div className="col">
-          <div className="card-block px-2">
-            <h4 className="card-title">{car.Name}</h4>
-            <p className="card-text">
+        <div className="col bg-black">
+          <div className="card-block px-2 bg-black">
+            <h4 className="card-title bg-black">{car.Name}</h4>
+            <p className="card-text bg-black">
               {
                 <ul>
                   <li>Color:{car.Color}</li>
@@ -46,7 +46,7 @@ const RenderCarPage = () => {
           </div>
         </div>
       </div>
-      <div className="card-footer w-100 text-muted">
+      <div className="card-footer w-100 text-muted bg-danger">
 
        
       <button onClick={() => navigate(-1)} className="btn btn-primary">Go Back</button>
