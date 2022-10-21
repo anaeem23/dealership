@@ -31,7 +31,7 @@ const HeaderM = () => {
             <div className="col pheMM">
               <BsPhone className="logo" /> XXX-XXX-XXXX{" "}
             </div>
-            <div className="col pheM">
+            <div className="col pheMM">
               <MdOutlineMailOutline className="logo" /> Email@email.com
             </div>
           </div>
