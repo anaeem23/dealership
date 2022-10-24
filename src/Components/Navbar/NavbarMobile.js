@@ -29,7 +29,7 @@ const NavbarMobile = () => {
     <div className="container-fluid navBlockM">
       <div className="row">
         <div className="col-10 titleM">
-        <span style={{ color: "white" }}> Royalty</span>
+        <span style={{ color: "white" }}> Elite</span>
             <span style={{ color: "red" }}>Motors</span>
         </div>
         <div className="col-2 siteMap">

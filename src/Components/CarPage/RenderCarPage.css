@@ -37,3 +37,7 @@
 .card-footer {
     background-color: red;
 }
+
+.no-gutters {
+    background-color: yellow
+}

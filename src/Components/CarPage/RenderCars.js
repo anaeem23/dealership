@@ -9,7 +9,7 @@ const RenderCars = (prop) => {
         <div className="col-2 p-0 carFix"></div>
         <div className="col-8 detail p-0">
           <div className="card" style={{ width: "100%" }}>
-            <div className="row no-gutters">
+            <div className="row no-gutters bg-black">
               <div className="col-auto">
                 <img
                   src={car.IMG}

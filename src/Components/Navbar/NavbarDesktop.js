@@ -9,7 +9,7 @@ const NavBarDesktop = () => {
       <div className="container-fluid navBlock">
         <div className="row in">
           <div className="col-8 title">
-            <span style={{ color: "white" }}> Royalty</span>
+            <span style={{ color: "white" }}> Elite</span>
             <span style={{ color: "red" }}>Motors</span>
           </div>
           <div className="col-4 navO">
